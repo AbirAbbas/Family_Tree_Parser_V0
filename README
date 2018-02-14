@@ -1,0 +1,35 @@
+****************************************************
+Abir Abbas         						     0955448
+CIS2750 - Assignment 1
+2018-02-02                        abbasa@uoguelph.ca
+****************************************************
+
+************
+Compilation
+************
+make all - compiles both parser and list libraries
+
+make list - compiles list library
+
+make parser - compiles parser library
+
+make clean - cleans everything
+***********************
+Running the program(s)
+***********************
+will depend on your own makefile! usually ./bin/program!
+
+*****************
+Limitations
+*****************
+- Cannot take over 5000 characters worth of CONT/CONCs
+- Format must be strict
+- Get Descendant requires its own delete!
+- Currently cant handle double deletion (does not always check for NULL)
+- Issues with individual deletes but deleteGEDCOM works properly
+- doesn't like royal92.geds NAMING formats
+- does not check for memory overflow!
+
+*****************
+
+*****************
